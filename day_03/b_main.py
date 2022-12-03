@@ -26,9 +26,8 @@ def compare_compartments(a, b, c):
                     return item_a
 
 
-for i, rucksack in enumerate(input_data):
-    if i == 0 or i % 3 == 0:
-        misplaced_items.append(compare_compartments(input_data[i], input_data[i+1], input_data[i+2]))
+for i in range(0, len(input_data), 3):
+    misplaced_items.append(compare_compartments(input_data[i], input_data[i+1], input_data[i+2]))
 
 
 print(sum([PRIORITY.index(item) for item in misplaced_items]))
