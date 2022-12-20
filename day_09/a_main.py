@@ -4,8 +4,6 @@
 import os
 from utils import input_utils, math_utils
 
-import operator
-
 # get our input
 script_path = os.path.dirname(os.path.abspath(__file__))
 #data_path = os.path.join(script_path, "sample_input.txt")

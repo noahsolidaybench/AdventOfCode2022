@@ -2,9 +2,7 @@
 # Made for Advent of Code 2022
 
 import os
-from utils import input_utils, math_utils
-
-import operator
+from utils import input_utils
 
 # get our input
 script_path = os.path.dirname(os.path.abspath(__file__))
